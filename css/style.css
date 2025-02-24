@@ -182,27 +182,30 @@ h2{
 h4{
     padding-top: 0px;
     padding-bottom: 10px;
+    color: rgb(108, 107, 207);
 }
 .ultimoriquadrorosa{
-    height: 250px;
-    border: 1px dotted black;
     width: 170px;
-    background-color: pink;
     margin-left: 23%;
+    border-bottom: 1px solid white;
 }
 
 .ultimiriquadriazzurri{
-    height: 250px;
-    border: 1px dotted white;
     width: 95px;
-    background-color: rgb(48, 166, 202);
+    border-bottom: 1px solid white;
 }
 
+.littlelogos{
+    color: white;
+    display: inline-block;
+    margin: 15px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
 
 .riquadrofinale{
     width: 550px;
     padding:10px 0px;
-    background-color: rgb(48, 166, 202);
     margin-top: 10px;
     display: flex;
     margin-left: 23%;
@@ -211,12 +214,13 @@ h4{
 
 .logofinale{
 display: flex;
-border: 1px dotted black;
-background-color: rgb(221, 150, 150);
+color: white;
 }
 
 .bottonefinale{
 display: flex;
-border: 1px dotted black;
-background-color: rgb(221, 150, 150);
+    border-radius: 20%;
+    background-color: #4aa4d8;
+    padding: 5px 10px;
+    color: white;
 }
