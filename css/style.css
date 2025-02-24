@@ -71,16 +71,19 @@ h1{
     color: black;
     width: 30%;
     margin-top: 10px;
+    display: inline-block;
 }
 
 .discordbrowser{
-    border: 3px solid white;
+    border: 3px solid black;
     border-radius: 20%;
-    background-color: #fff;
+    background-color: black;
     padding: 5px 10px;
-    color: black;
-    width: 30%;
+    color: white;
+    width: 40%;
     margin-top: 10px;
+    display: inline-block;
+    margin-left: 30px;
 }
 
 .bg-primaimmagine{
@@ -97,37 +100,49 @@ background-size: 100% 100%;
 }
 
 .secondasezione{
-    height: 250px;
-    border: 1px dotted black;
     width: 400px;
-    background-color: pink;
     margin-left: 23%;
+    background-image: url(../img/item1.svg);
+    background-size: cover;
 }
 
 .terzasezione{
-    height: 250px;
-    border: 1px dotted black;
     width: 250px;
-    background-color: rgb(57, 117, 207);
+    padding: 10px 10px;
+}
+h2{
+    padding-top: 0px;
+    padding-bottom: 10px;
 }
 
 .quartasezione{
-    height: 250px;
-    border: 1px dotted black;
     width: 250px;
-    background-color: pink;
     margin-left: 23%;
 }
 
-.quintasezione{
-    height: 250px;
-    border: 1px dotted black;
+.sezionespeculare{
     width: 400px;
-    background-color: rgb(57, 117, 207);
+    margin-left: 23%;
+    background-image: url(../img/item3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.altrasezionespeculare{
+    width: 250px;
+    padding: 10px 10px;
+}
+
+.quintasezione{
+    width: 400px;
+    background-image: url(../img/item2.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .bg-grey{
-    background-color: grey;
+    background-color: rgb(230, 229, 229);
 }
 
 .riquadrogrande{
