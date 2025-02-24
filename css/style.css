@@ -184,23 +184,24 @@ h4{
     padding-bottom: 10px;
     color: rgb(108, 107, 207);
 }
+
 .ultimoriquadrorosa{
-    width: 170px;
+    width: 60%;
     margin-left: 23%;
     border-bottom: 1px solid white;
 }
 
 .ultimiriquadriazzurri{
-    width: 100px;
+    width: 40%;
     border-bottom: 1px solid white;
 }
 
 ol{
     display: flex;
     flex-direction: column;
-    justify-items: normal;
-    justify-content: space-evenly;
     list-style-type: none;
+    justify-content: space-around;
+    line-height: 2;
     color: white;
 }
 .littlelogos{
@@ -232,4 +233,10 @@ display: flex;
     background-color: #4aa4d8;
     padding: 5px 10px;
     color: white;
+}
+.italiano{
+    color: white;
+}
+.primoelemento{
+    color: rgb(108, 107, 207);
 }
