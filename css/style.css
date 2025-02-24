@@ -191,10 +191,18 @@ h4{
 }
 
 .ultimiriquadriazzurri{
-    width: 95px;
+    width: 100px;
     border-bottom: 1px solid white;
 }
 
+ol{
+    display: flex;
+    flex-direction: column;
+    justify-items: normal;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: white;
+}
 .littlelogos{
     color: white;
     display: inline-block;
