@@ -147,16 +147,42 @@ h2{
 
 .riquadrogrande{
     width: 50%;
-    height: 400px;
-    background-color: green;
-    border: 1px dotted black;
     margin-left: 23%;
+    padding: 8px 10px;
+    background-image: url(../img/item4-big.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 15px;
 }
 
+.lastphrase{
+    display: flex;
+    width: 60%;
+    height: 400px;
+    margin-left: 23%;
+    padding: 8px 10px;
+    font-size: 13px;
+    align-items: end;
+}
 .bg-black{
-    background-color: black;
+    background-color: rgb(73, 70, 70);
 }
 
+.altroriquadropermac{
+    background-color: rgb(76, 153, 179);
+    border-radius: 18%;
+    padding: 5px 26px;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 30%;
+    color: white;
+}
+
+h4{
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
 .ultimoriquadrorosa{
     height: 250px;
     border: 1px dotted black;
